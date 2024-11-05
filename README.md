@@ -35,4 +35,4 @@ export class UserFormComponent extends FormBaseComponent implements OnInit {
 ```
 ### Example: 
  There is a sample demo app created where this feature can 
- be tested.
+ be tested. You can run this app using `yarn install && yarn start`
