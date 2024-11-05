@@ -1,0 +1,295 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tg/app/*": [
+        "apps/tg/src/app/*"
+      ],
+      "@tg/case-mgmt": [
+        "libs/features/case-mgmt/src/index.ts"
+      ],
+      "@tg/env/*": [
+        "apps/tg/src/environments/*"
+      ],
+      "@tg/features/accounts": [
+        "libs/features/accounts/src/index.ts"
+      ],
+      "@tg/features/auth": [
+        "libs/features/auth/src/index.ts"
+      ],
+      "@tg/features/oppy": [
+        "libs/features/oppy/src/index.ts"
+      ],
+      "@tg/features/reporting": [
+        "libs/features/reporting/src/index.ts"
+      ],
+      "@tg/features/role": [
+        "libs/features/role/src/index.ts"
+      ],
+      "@tg/features/services": [
+        "libs/features/services/src/index.ts"
+      ],
+      "@tg/features/user": [
+        "libs/features/user/src/index.ts"
+      ],
+      "@tg/shared-pipes-uri-value": [
+        "libs/shared/pipes/uri-value/src/index.ts"
+      ],
+      "@tg/shared/api-loader": [
+        "libs/shared/api-loader/src/index.ts"
+      ],
+      "@tg/shared/apollo-graphql": [
+        "libs/shared/apollo-graphql/src/index.ts"
+      ],
+      "@tg/shared/async-dialog": [
+        "libs/shared/async-dialog/src/index.ts"
+      ],
+      "@tg/shared/checkpoint": [
+        "libs/shared/checkpoint/src/index.ts"
+      ],
+      "@tg/shared/components/activity-logs": [
+        "libs/shared/components/activity-logs/src/index.ts"
+      ],
+      "@tg/shared/components/address": [
+        "libs/shared/components/address/src/index.ts"
+      ],
+      "@tg/shared/components/advance-filter-fields": [
+        "libs/shared/components/advance-filter-fields/src/index.ts"
+      ],
+      "@tg/shared/components/autocomplete": [
+        "libs/shared/components/autocomplete/src/index.ts"
+      ],
+      "@tg/shared/components/avatar": [
+        "libs/shared/components/avatar/src/index.ts"
+      ],
+      "@tg/shared/components/chip-selection": [
+        "libs/shared/components/chip-selection/src/index.ts"
+      ],
+      "@tg/shared/components/column-selection-modal": [
+        "libs/shared/components/column-selection-modal/src/index.ts"
+      ],
+      "@tg/shared/components/common-billing": [
+        "libs/shared/components/common-billing/src/index.ts"
+      ],
+      "@tg/shared/components/common-inputs": [
+        "libs/shared/components/common-inputs/src/index.ts"
+      ],
+      "@tg/shared/components/confirmation-modal": [
+        "libs/shared/components/confirmation-modal/src/index.ts"
+      ],
+      "@tg/shared/components/content-header": [
+        "libs/shared/components/content-header/src/index.ts"
+      ],
+      "@tg/shared/components/credit": [
+        "libs/shared/components/credit/src/index.ts"
+      ],
+      "@tg/shared/components/email": [
+        "libs/shared/components/email/src/index.ts"
+      ],
+      "@tg/shared/components/file-upload": [
+        "libs/shared/components/file-upload/src/index.ts"
+      ],
+      "@tg/shared/components/file-upload-section": [
+        "libs/shared/components/file-upload-section/src/index.ts"
+      ],
+      "@tg/shared/components/financial-table": [
+        "libs/shared/components/financial-table/src/index.ts"
+      ],
+      "@tg/shared/components/global-search": [
+        "libs/shared/components/global-search/src/index.ts"
+      ],
+      "@tg/shared/components/lang-switcher": [
+        "libs/shared/components/lang-switcher/src/index.ts"
+      ],
+      "@tg/shared/components/loading-ui": [
+        "libs/shared/components/loading-ui/src/index.ts"
+      ],
+      "@tg/shared/components/multi-lang-field": [
+        "libs/shared/components/multi-lang-field/src/index.ts"
+      ],
+      "@tg/shared/components/no-data": [
+        "libs/shared/components/no-data/src/index.ts"
+      ],
+      "@tg/shared/components/redirection": [
+        "libs/shared/components/redirection/src/index.ts"
+      ],
+      "@tg/shared/components/search-bar": [
+        "libs/shared/components/search-bar/src/index.ts"
+      ],
+      "@tg/shared/components/selected-filters": [
+        "libs/shared/components/selected-filters/src/index.ts"
+      ],
+      "@tg/shared/components/state-step": [
+        "libs/shared/components/state-step/src/index.ts"
+      ],
+      "@tg/shared/components/tablular-view": [
+        "libs/shared/components/tablular-view/src/index.ts"
+      ],
+      "@tg/shared/components/user-profile": [
+        "libs/shared/components/user-profile/src/index.ts"
+      ],
+      "@tg/shared/directives/dynamic-host": [
+        "libs/shared/directives/dynamic-host/src/index.ts"
+      ],
+      "@tg/shared/directives/error": [
+        "libs/shared/directives/error/src/index.ts"
+      ],
+      "@tg/shared/directives/image-fallback": [
+        "libs/shared/directives/image-fallback/src/index.ts"
+      ],
+      "@tg/shared/directives/location": [
+        "libs/shared/directives/location/src/index.ts"
+      ],
+      "@tg/shared/directives/numbers-only": [
+        "libs/shared/directives/numbers-only/src/index.ts"
+      ],
+      "@tg/shared/i18n": [
+        "libs/shared/i18n/src/index.ts"
+      ],
+      "@tg/shared/layout/breadcrumb": [
+        "libs/shared/layout/breadcrumb/src/index.ts"
+      ],
+      "@tg/shared/layout/footer": [
+        "libs/shared/layout/footer/src/index.ts"
+      ],
+      "@tg/shared/layout/header": [
+        "libs/shared/layout/header/src/index.ts"
+      ],
+      "@tg/shared/layout/menu-bar": [
+        "libs/shared/layout/menu-bar/src/index.ts"
+      ],
+      "@tg/shared/layout/sidebar": [
+        "libs/shared/layout/sidebar/src/index.ts"
+      ],
+      "@tg/shared/pipes/add-on": [
+        "libs/shared/pipes/add-on/src/index.ts"
+      ],
+      "@tg/shared/pipes/add-on-display": [
+        "libs/shared/pipes/add-on-display/src/index.ts"
+      ],
+      "@tg/shared/pipes/address": [
+        "libs/shared/pipes/address/src/index.ts"
+      ],
+      "@tg/shared/pipes/amount": [
+        "libs/shared/pipes/amount/src/index.ts"
+      ],
+      "@tg/shared/pipes/app-date": [
+        "libs/shared/pipes/app-date/src/index.ts"
+      ],
+      "@tg/shared/pipes/append-blank": [
+        "libs/shared/pipes/append-blank/src/index.ts"
+      ],
+      "@tg/shared/pipes/array-mapper": [
+        "libs/shared/pipes/array-mapper/src/index.ts"
+      ],
+      "@tg/shared/pipes/bind-template": [
+        "libs/shared/pipes/bind-template/src/index.ts"
+      ],
+      "@tg/shared/pipes/date-as-ago": [
+        "libs/shared/pipes/date-as-ago/src/index.ts"
+      ],
+      "@tg/shared/pipes/default-image": [
+        "libs/shared/pipes/default-image/src/index.ts"
+      ],
+      "@tg/shared/pipes/dropdown": [
+        "libs/shared/pipes/dropdown/src/index.ts"
+      ],
+      "@tg/shared/pipes/duration": [
+        "libs/shared/pipes/duration/src/index.ts"
+      ],
+      "@tg/shared/pipes/dynamic-menu-items": [
+        "libs/shared/pipes/dynamic-menu-items/src/index.ts"
+      ],
+      "@tg/shared/pipes/file-size": [
+        "libs/shared/pipes/file-size/src/index.ts"
+      ],
+      "@tg/shared/pipes/filter-selected": [
+        "libs/shared/pipes/filter-selected/src/index.ts"
+      ],
+      "@tg/shared/pipes/keyvalue": [
+        "libs/shared/pipes/keyvalue/src/index.ts"
+      ],
+      "@tg/shared/pipes/label-color": [
+        "libs/shared/pipes/label-color/src/index.ts"
+      ],
+      "@tg/shared/pipes/label-model": [
+        "libs/shared/pipes/label-model/src/index.ts"
+      ],
+      "@tg/shared/pipes/lang-label": [
+        "libs/shared/pipes/lang-label/src/index.ts"
+      ],
+      "@tg/shared/pipes/map-currency-id": [
+        "libs/shared/pipes/map-currency-id/src/index.ts"
+      ],
+      "@tg/shared/pipes/members": [
+        "libs/shared/pipes/members/src/index.ts"
+      ],
+      "@tg/shared/pipes/product-name": [
+        "libs/shared/pipes/product-name/src/index.ts"
+      ],
+      "@tg/shared/pipes/redundancy-tooltip-mapper": [
+        "libs/shared/pipes/redundancy-tooltip-mapper/src/index.ts"
+      ],
+      "@tg/shared/pipes/safe-html": [
+        "libs/shared/pipes/safe-html/src/index.ts"
+      ],
+      "@tg/shared/pipes/search-filter-enabled": [
+        "libs/shared/pipes/search-filter-enabled/src/index.ts"
+      ],
+      "@tg/shared/pipes/status-code": [
+        "libs/shared/pipes/status-code/src/index.ts"
+      ],
+      "@tg/shared/pipes/trim": [
+        "libs/shared/pipes/trim/src/index.ts"
+      ],
+      "@tg/shared/pipes/url-path": [
+        "libs/shared/pipes/url-path/src/index.ts"
+      ],
+      "@tg/shared/reference": [
+        "libs/shared/reference/src/index.ts"
+      ],
+      "@tg/shared/reference/graphql/app": [
+        "libs/shared/reference/src/lib/graphql/app/index.ts"
+      ],
+      "@tg/shared/rollbar": [
+        "libs/shared/rollbar/src/index.ts"
+      ],
+      "@tg/shared/security": [
+        "libs/shared/security/src/index.ts"
+      ],
+      "@tg/shared/service-worker": [
+        "libs/shared/service-worker/src/index.ts"
+      ],
+      "@tg/shared/services": [
+        "libs/shared/services/src/index.ts"
+      ],
+      "@tg/shared/utils/form-utils": [
+        "libs/shared/utils/form-utils/src/index.ts"
+      ],
+      "@tg/shared/utils/misc": [
+        "libs/shared/utils/misc/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

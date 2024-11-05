@@ -1,0 +1,21 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+    <div class="user-form">
+        <div class="user-form__field">
+            <label for="firstname">First Name</label>
+            <input id="firstname" formControlName="firstName" class="width--full" type="text" pInputText>
+        </div>
+        <div class="user-form__field">
+            <label for="lastname">Last Name</label>
+            <input id="lastname" formControlName="lastName" type="text" pInputText>
+        </div>
+
+        <div class="user-form__field">
+            <label for="email">Email</label>
+            <input id="email" formControlName="email" type="text" pInputText>
+        </div>
+
+        <div class="user-form__action">
+            <button pButton type="button" class="" [label]="'Submit'"></button>
+        </div>
+    </div>
+</form>

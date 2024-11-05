@@ -1,0 +1,15 @@
+.user-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 20%;
+  margin: 0 auto;
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    row-gap: 0.5rem;
+  }
+
+}
